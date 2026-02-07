@@ -1,0 +1,7 @@
+number = 8451
+reversed_number = 0
+while number > 0:
+    digit = number % 10  # Get the last digit
+    reversed_number = reversed_number * 10 + digit  # Add it to reversed_number
+    number = number // 10  # Remove the last digit
+print(reversed_number)
